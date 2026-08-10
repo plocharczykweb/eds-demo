@@ -7,7 +7,8 @@
   margin: 0 0 28px;
   text-align: center;
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 18px;
+  font-weight:bold;
 }
 
 .product-slider-viewport {
@@ -17,7 +18,7 @@
 
 .product-slider-track {
   display: flex;
-  gap: 16px;
+  gap: 10px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
@@ -28,7 +29,7 @@
 }
 
 .product-slider-item {
-  flex: 0 0 min(16vw, 360px);
+  flex: 0 0 min(22vw, 360px);
   scroll-snap-align: start;
 }
 
@@ -43,7 +44,7 @@
 .product-slider-label {
   margin-top: 14px;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .product-slider-arrow {
