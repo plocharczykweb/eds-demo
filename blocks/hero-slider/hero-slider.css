@@ -27,7 +27,7 @@
   overflow: hidden;
 }
 
-.hero-slider-slide::after {
+/*.hero-slider-slide::after {
   content: '';
   position: absolute;
   inset: 0;
@@ -38,7 +38,7 @@
     transparent 70%
   );
   pointer-events: none;
-}
+}*/
 
 .hero-slider-slide img {
   display: block;
@@ -113,8 +113,8 @@
 }
 
 .hero-slider-dot {
-  width: 9px;
-  height: 9px;
+  width: 8px;
+  height: 8px;
   padding: 0;
   border: 1px solid white;
   border-radius: 50%;
