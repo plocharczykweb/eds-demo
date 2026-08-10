@@ -105,22 +105,27 @@ export default function decorate(block) {
     [...dots.children].forEach((dot, index) => {
       dot.classList.toggle('active', index === currentIndex);
     });
-
-    prev.hidden = currentIndex === 0;
-    next.hidden = currentIndex === slides.length - 1;
   }
 
   function goToSlide(index) {
-    currentIndex = Math.max(0, Math.min(index, slides.length - 1));
+    currentIndex = index;
     updateSlider();
   }
 
   prev.addEventListener('click', () => {
-    goToSlide(currentIndex - 1);
+    if (currentIndex === 0) {
+      goToSlide(slides.length - 1);
+    } else {
+      goToSlide(currentIndex - 1);
+    }
   });
 
   next.addEventListener('click', () => {
-    goToSlide(currentIndex + 1);
+    if (currentIndex === slides.length - 1) {
+      goToSlide(0);
+    } else {
+      goToSlide(currentIndex + 1);
+    }
   });
 
   updateSlider();
