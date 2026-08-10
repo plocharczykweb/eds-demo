@@ -46,16 +46,23 @@ export default function decorate(block) {
   prev.className = 'product-slider-arrow product-slider-prev';
   prev.type = 'button';
   prev.setAttribute('aria-label', 'Previous products');
-  prev.innerHTML = '&#10094;';
+  prev.innerHTML = '❮';
 
   const next = document.createElement('button');
   next.className = 'product-slider-arrow product-slider-next';
   next.type = 'button';
   next.setAttribute('aria-label', 'Next products');
-  next.innerHTML = '&#10095;';
+  next.innerHTML = '❯';
 
   viewport.append(track, prev, next);
   block.append(title, viewport);
+
+  function updateArrows() {
+    const maxScrollLeft = track.scrollWidth - track.clientWidth;
+
+    prev.hidden = track.scrollLeft <= 1;
+    next.hidden = track.scrollLeft >= maxScrollLeft - 1;
+  }
 
   function scroll(direction) {
     const item = track.querySelector('.product-slider-item');
@@ -72,4 +79,10 @@ export default function decorate(block) {
 
   prev.addEventListener('click', () => scroll(-1));
   next.addEventListener('click', () => scroll(1));
+
+  track.addEventListener('scroll', updateArrows);
+
+  window.addEventListener('resize', updateArrows);
+
+  updateArrows();
 }
