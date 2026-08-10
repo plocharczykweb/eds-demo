@@ -10,9 +10,11 @@ export default function decorate(block) {
 
   const images = [...imageRow.children].map((cell) => cell.textContent.trim());
   const titles = [...titleRow.children].map((cell) => cell.textContent.trim());
+
   const descriptions = descriptionRow
     ? [...descriptionRow.children].map((cell) => cell.textContent.trim())
     : [];
+
   const meta = metaRow
     ? [...metaRow.children].map((cell) => cell.textContent.trim())
     : [];
@@ -80,6 +82,28 @@ export default function decorate(block) {
 
   const slides = [...track.children];
 
+  let currentIndex = 0;
+
+  function updateSlider() {
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+    [...dots.children].forEach((dot, index) => {
+      dot.classList.toggle('active', index === currentIndex);
+    });
+
+    // Always keep both arrows visible
+    prev.removeAttribute('hidden');
+    next.removeAttribute('hidden');
+
+    prev.style.display = '';
+    next.style.display = '';
+  }
+
+  function goToSlide(index) {
+    currentIndex = index;
+    updateSlider();
+  }
+
   slides.forEach((slide, index) => {
     const dot = document.createElement('button');
 
@@ -93,24 +117,6 @@ export default function decorate(block) {
 
     dots.append(dot);
   });
-
-  slider.append(track, prev, next, dots);
-  block.append(slider);
-
-  let currentIndex = 0;
-
-  function updateSlider() {
-    track.style.transform = `translateX(-${currentIndex * 100}%)`;
-
-    [...dots.children].forEach((dot, index) => {
-      dot.classList.toggle('active', index === currentIndex);
-    });
-  }
-
-  function goToSlide(index) {
-    currentIndex = index;
-    updateSlider();
-  }
 
   prev.addEventListener('click', () => {
     if (currentIndex === 0) {
@@ -127,6 +133,9 @@ export default function decorate(block) {
       goToSlide(currentIndex + 1);
     }
   });
+
+  slider.append(track, prev, next, dots);
+  block.append(slider);
 
   updateSlider();
 }
