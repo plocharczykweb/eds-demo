@@ -22,13 +22,15 @@ function slideBanner(block) {
       firstBanner.style.marginLeft = '0';
 
       // Wait 2500ms before sliding again
-      setTimeout(slide, 2500);
+      setTimeout(slide, 5000);
     }, 300);
   }
 
-  setTimeout(slide, 2500);
+  setTimeout(slide, 5000);
 }
 
 export default function decorate(block) {
-  slideBanner(block);
+  setTimeout(function(){
+    slideBanner(block);
+  }, 5000);
 }
