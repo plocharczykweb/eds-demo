@@ -51,8 +51,8 @@
 .hero-slider-overlay {
   position: absolute;
   z-index: 2;
-  left: 52px;
-  bottom: 42px;
+  left: 42px;
+  bottom: 12px;
   max-width: 650px;
   color: white;
 }
@@ -66,7 +66,7 @@
 
 .hero-slider-description {
   margin: 0 0 30px;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.25;
 }
 
@@ -107,13 +107,16 @@
   display: flex;
   gap: 12px;
   transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 4px;
+  border-radius: 999px;
 }
 
 .hero-slider-dot {
-  width: 12px;
-  height: 12px;
+  width: 5px;
+  height: 5px;
   padding: 0;
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 50%;
   background: transparent;
   cursor: pointer;
