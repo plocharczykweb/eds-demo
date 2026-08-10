@@ -1,0 +1,511 @@
+libarchive             3.7.7          -> 3.8.9
+brotli                 1.1.0          -> 1.2.0
+libnghttp2             1.66.0         -> 1.70.0
+libnghttp3             1.11.0         -> 1.18.0
+ca-certificates        2026-05-14     -> 2026-07-16 (110.9KB)
+libngtcp2              1.14.0         -> 1.25.0
+libunistring           1.3            -> 1.4.2
+gettext                0.23.1         -> 1.0
+libidn2                2.3.7          -> 2.3.8
+libssh2                1.11.1         -> 1.11.1_4
+curl                   8.12.1         -> 8.21.0
+icu4c@76               76.1_1         -> 76.1_2
+sqlite                 3.53.3         -> 3.53.4
+jpeg                   9c             -> 10
+icu4c@77               77.1           -> 77.1_1
+lzip                   1.25           -> 1.26
+libunibreak            6.1            -> 7.0
+python-packaging       24.2           -> 26.3
+exiftool               13.10          -> 13.55
+simdjson               3.13.0         -> 4.6.6
+swig                   4.4.1          -> 4.5.0
+xtrans                 1.5.2          -> 1.6.0 (80.2KB)
+freetype               2.13.3         -> 2.14.3
+fontconfig             2.16.0         -> 2.18.3
+openjpeg               2.5.3          -> 2.5.4
+leptonica              1.85.0         -> 1.87.0
+glib                   2.82.4         -> 2.88.3
+xorgproto              2024.1         -> 2025.1
+libx11                 1.8.11         -> 1.8.13
+libxext                1.3.6          -> 1.3.7
+pixman                 0.44.2         -> 0.46.4
+cairo                  1.18.2         -> 1.18.4
+graphite2              1.3.14         -> 1.3.15
+harfbuzz               10.2.0         -> 14.3.0
+pango                  1.56.1         -> 1.58.2
+tesseract              5.5.0          -> 5.5.3
+ghostscript            9.27_1         -> 10.07.1
+python-setuptools      75.8.0         -> 83.0.0 (946.2KB)
+frei0r                 2.3.3          -> 3.2.3
+nettle                 3.10.1         -> 4.0
+cmake                  4.4.0          -> 4.4.2
+opus                   1.5.2          -> 1.6.1
+libuv                  1.51.0         -> 1.52.1
+rtmpdump               2.4-20151223_3 -> 2.6
+imath                  3.1.12         -> 3.2.2
+boost                  1.87.0         -> 1.90.0_1
+python@3.13            3.13.5         -> 3.13.15
+mpg123                 1.32.10        -> 1.33.7
+highway                1.2.0          -> 1.4.0
+zimg                   3.0.5          -> 3.0.6
+libogg                 1.3.5          -> 1.3.6
+libsodium              1.0.20         -> 1.0.22
+zeromq                 4.3.5_1        -> 4.3.5_2
+libbluray              1.3.4          -> 1.5.0
+c-ares                 1.34.5         -> 1.34.8
+aria2                  1.37.0         -> 1.37.0_2
+libvmaf                3.0.0          -> 3.2.0
+aom                    3.12.0         -> 3.14.1
+mbedtls                3.6.2          -> 4.2.0
+srt                    1.5.4          -> 1.5.6
+pkgconf                2.5.1          -> 3.0.5
+gobject-introspection  1.82.0         -> 1.86.0_3
+svt-av1                2.3.0_1        -> 4.2.0
+libdeflate             1.23           -> 1.25
+openexr                3.3.2          -> 3.4.14
+gradle                 5.6            -> 9.7.0 (156.3MB)
+meson                  1.7.0          -> 1.11.2 (945.8KB)
+siege                  4.0.4_1        -> 4.1.7
+certifi                2026.6.17      -> 2026.7.22 (6.5KB)
+libvpx                 1.15.0         -> 1.16.0
+cjson                  1.7.18         -> 1.7.19
+libtasn1               4.20.0         -> 4.21.0
+p11-kit                0.25.5         -> 0.26.5
+gnutls                 3.8.4          -> 3.8.13_2
+libmicrohttpd          1.0.1          -> 1.0.10
+librist                0.2.11         -> 0.2.20
+snappy                 1.2.1          -> 1.2.2
+flac                   1.4.3          -> 1.5.0
+docbook                5.1_1          -> 5.2.1
+asciidoc               10.2.1         -> 10.2.1_1 (228.8KB)
+sphinx-doc             8.2.3_3        -> 9.1.0_4
+dav1d                  1.5.1          -> 1.5.4
+autoconf               2.72           -> 2.73
+rav1e                  0.7.1          -> 0.8.1
+libssh                 0.11.1         -> 0.12.2
+libevent               2.1.12_1       -> 2.1.13
+x264                   r3108          -> r3222
+jpeg-xl                0.11.1         -> 0.12.0
+libvidstab             1.1.1          -> 1.1.2
+doxygen                1.13.2         -> 1.17.0
+x265                   4.1            -> 4.2
+theora                 1.1.1          -> 1.2.0
+jq                     1.7.1          -> 1.8.2
+sdl2                   2.32.70
+libass                 0.17.3         -> 0.17.5
+lame                   3.100          -> 4.0
+libsndfile             1.2.2          -> 1.2.2_1
+automake               1.18.1         -> 1.18.1_1
+unbound                1.22.0         -> 1.26.0
+z3                     4.15.2         -> 4.16.0
+tree                   2.2.1          -> 2.3.2
+libtool                2.5.4          -> 2.6.2
+ffmpeg                 7.1_4          -> 8.1.2_1
+
+Warning: icu4c@76 has been deprecated because it is a versioned formula! It was disabled on 2026-03-29.
+Warning: icu4c@77 has been deprecated because it is a versioned formula! It will be disabled on 2026-10-30.
+✔︎ API Source m4.rb                                  Verified      1.7KB/  1.7KB
+✔︎ API Source libarchive.rb                          Verified      2.3KB/  2.3KB
+✔︎ API Source brotli.rb                              Verified      2.1KB/  2.1KB
+✔︎ API Source libnghttp2.rb                          Verified      2.5KB/  2.5KB
+✔︎ API Source libnghttp3.rb                          Verified      1.8KB/  1.8KB
+✔︎ API Source libngtcp2.rb                           Verified      9.0KB/  9.0KB
+✔︎ API Source libunistring.rb                        Verified      2.5KB/  2.5KB
+✔︎ API Source gettext.rb                             Verified      2.9KB/  2.9KB
+✔︎ API Source libidn2.rb                             Verified      2.9KB/  2.9KB
+✔︎ API Source libssh2.rb                             Verified      5.5KB/  5.5KB
+✔︎ API Source curl.rb                                Verified      4.6KB/  4.6KB
+✔︎ API Source icu4c@76.rb                            Verified      2.1KB/  2.1KB
+✔︎ API Source sqlite.rb                              Verified      3.3KB/  3.3KB
+✔︎ API Source jpeg.rb                                Verified      1.4KB/  1.4KB
+✔︎ API Source icu4c@77.rb                            Verified      1.8KB/  1.8KB
+✔︎ API Source lzip.rb                                Verified      2.1KB/  2.1KB
+✔︎ API Source libunibreak.rb                         Verified      2.3KB/  2.3KB
+✔︎ API Source python-packaging.rb                    Verified      1.8KB/  1.8KB
+✔︎ API Source exiftool.rb                            Verified      5.9KB/  5.9KB
+✔︎ API Source simdjson.rb                            Verified      1.9KB/  1.9KB
+✔︎ API Source swig.rb                                Verified      2.7KB/  2.7KB
+✔︎ API Source freetype.rb                            Verified      2.1KB/  2.1KB
+✔︎ API Source fontconfig.rb                          Verified      2.7KB/  2.7KB
+✔︎ API Source openjpeg.rb                            Verified      2.0KB/  2.0KB
+✔︎ API Source leptonica.rb                           Verified      2.0KB/  2.0KB
+✔︎ API Source glib.rb                                Verified      7.8KB/  7.8KB
+✔︎ API Source xorgproto.rb                           Verified      1.7KB/  1.7KB
+✔︎ API Source libx11.rb                              Verified      2.7KB/  2.7KB
+✔︎ API Source libxext.rb                             Verified      1.7KB/  1.7KB
+✔︎ API Source pixman.rb                              Verified      2.2KB/  2.2KB
+✔︎ API Source cairo.rb                               Verified      2.5KB/  2.5KB
+✔︎ API Source graphite2.rb                           Verified      1.9KB/  1.9KB
+✔︎ API Source harfbuzz.rb                            Verified      2.5KB/  2.5KB
+✔︎ API Source pango.rb                               Verified      2.7KB/  2.7KB
+✔︎ API Source tesseract.rb                           Verified      3.7KB/  3.7KB
+✔︎ API Source ghostscript.rb                         Verified      3.8KB/  3.8KB
+✔︎ API Source frei0r.rb                              Verified      1.7KB/  1.7KB
+✔︎ API Source nettle.rb                              Verified      2.0KB/  2.0KB
+✔︎ API Source cmake.rb                               Verified      3.2KB/  3.2KB
+✔︎ API Source opus.rb                                Verified      2.4KB/  2.4KB
+✔︎ API Source libuv.rb                               Verified      1.9KB/  1.9KB
+✔︎ API Source rtmpdump.rb                            Verified      1.8KB/  1.8KB
+✔︎ API Source imath.rb                               Verified      2.0KB/  2.0KB
+✔︎ API Source boost.rb                               Verified      4.9KB/  4.9KB
+✔︎ API Source python@3.13.rb                         Verified     24.0KB/ 24.0KB
+✔︎ API Source mpg123.rb                              Verified      1.5KB/  1.5KB
+✔︎ API Source highway.rb                             Verified      2.0KB/  2.0KB
+✔︎ API Source zimg.rb                                Verified      2.0KB/  2.0KB
+✔︎ API Source libogg.rb                              Verified      3.4KB/  3.4KB
+✔︎ API Source libsodium.rb                           Verified      2.1KB/  2.1KB
+✔︎ API Source zeromq.rb                              Verified      2.5KB/  2.5KB
+✔︎ API Source libbluray.rb                           Verified      2.1KB/  2.1KB
+✔︎ API Source c-ares.rb                              Verified      1.8KB/  1.8KB
+✔︎ API Source aria2.rb                               Verified      1.7KB/  1.7KB
+✔︎ API Source libvmaf.rb                             Verified      1.7KB/  1.7KB
+✔︎ API Source aom.rb                                 Verified      2.4KB/  2.4KB
+✔︎ API Source mbedtls.rb                             Verified      2.7KB/  2.7KB
+✔︎ API Source srt.rb                                 Verified      1.8KB/  1.8KB
+✔︎ API Source pkgconf.rb                             Verified      5.5KB/  5.5KB
+✔︎ API Source gobject-introspection.rb               Verified      5.9KB/  5.9KB
+✔︎ API Source svt-av1.rb                             Verified      2.1KB/  2.1KB
+✔︎ API Source libdeflate.rb                          Verified      1.5KB/  1.5KB
+✔︎ API Source openexr.rb                             Verified      2.0KB/  2.0KB
+✔︎ API Source siege.rb                               Verified      2.3KB/  2.3KB
+✔︎ API Source libvpx.rb                              Verified      2.2KB/  2.2KB
+✔︎ API Source cjson.rb                               Verified      2.5KB/  2.5KB
+✔︎ API Source libtasn1.rb                            Verified      1.9KB/  1.9KB
+✔︎ API Source p11-kit.rb                             Verified      2.1KB/  2.1KB
+✔︎ API Source gnutls.rb                              Verified      3.9KB/  3.9KB
+✔︎ API Source libmicrohttpd.rb                       Verified      1.7KB/  1.7KB
+✔︎ API Source librist.rb                             Verified      1.7KB/  1.7KB
+✔︎ API Source snappy.rb                              Verified      3.7KB/  3.7KB
+✔︎ API Source flac.rb                                Verified      2.4KB/  2.4KB
+✔︎ API Source docbook.rb                             Verified      5.1KB/  5.1KB
+✔︎ API Source sphinx-doc.rb                          Verified      7.1KB/  7.1KB
+✔︎ API Source dav1d.rb                               Verified      1.8KB/  1.8KB
+✔︎ API Source autoconf.rb                            Verified      2.5KB/  2.5KB
+✔︎ API Source rav1e.rb                               Verified      2.1KB/  2.1KB
+✔︎ API Source libssh.rb                              Verified      1.9KB/  1.9KB
+✔︎ API Source libevent.rb                            Verified      1.6KB/  1.6KB
+✔︎ API Source x264.rb                                Verified      3.5KB/  3.5KB
+✔︎ API Source jpeg-xl.rb                             Verified      4.3KB/  4.3KB
+✔︎ API Source libvidstab.rb                          Verified      1.7KB/  1.7KB
+✔︎ API Source doxygen.rb                             Verified      2.4KB/  2.4KB
+✔︎ API Source x265.rb                                Verified      3.6KB/  3.6KB
+✔︎ API Source theora.rb                              Verified      2.4KB/  2.4KB
+✔︎ API Source jq.rb                                  Verified      1.7KB/  1.7KB
+✔︎ API Source sdl2-compat.rb                         Verified      2.3KB/  2.3KB
+✔︎ API Source libass.rb                              Verified      2.4KB/  2.4KB
+✔︎ API Source lame.rb                                Verified      1.7KB/  1.7KB
+✔︎ API Source libsndfile.rb                          Verified      2.4KB/  2.4KB
+✔︎ API Source automake.rb                            Verified      3.0KB/  3.0KB
+✔︎ API Source unbound.rb                             Verified      2.4KB/  2.4KB
+✔︎ API Source z3.rb                                  Verified      2.8KB/  2.8KB
+✔︎ API Source tree.rb                                Verified      1.3KB/  1.3KB
+✔︎ API Source libtool.rb                             Verified      2.9KB/  2.9KB
+✔︎ API Source ffmpeg.rb                              Verified      3.8KB/  3.8KB
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/6e758f61af2eb0a776c0b2d59d962ffa721c1a1b98000bf2f3f0c48287bc9986--json-c.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+######################################################################### 100.0%
+Warning: Cannot verify integrity of '9877b62e99d30fb0836314bc1dec74382cdee4b52813d9c15a4ffdc815702c63--CVE-2025-15661.patch'.
+No checksum was provided.
+For your reference, the checksum is:
+  sha256 "7fbbb58149ea7e2df234f491d3ee1e7ce8416c8405b0dad0048ea6bbe5ffb5b9"
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+######################################################################### 100.0%
+Warning: Cannot verify integrity of '867ef054064842571941c4fcd0d88dfdc152760ae2917984e1d6dcd1e03c624b--CVE-2026-55200.patch'.
+No checksum was provided.
+For your reference, the checksum is:
+  sha256 "db9015ee5cbe95ea0861131109cc29e3cb408a4789d497c1c8812e86873533ac"
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+######################################################################### 100.0%
+Warning: Cannot verify integrity of '14a09f5af2fca9d27cf30b8a54176029d84a683191421f450ed54fedd8e78490--CVE-2026-58050.patch'.
+No checksum was provided.
+For your reference, the checksum is:
+  sha256 "052bd73ea87ddcbb473131e2a52bd3523de065a2201051878c1259230ed3bb7f"
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+######################################################################### 100.0%
+Warning: Cannot verify integrity of '26381e36e84a410aa21a335599b72f91e9b370e85f6d0438c561842114ae1de2--CVE-2026-66032.patch'.
+No checksum was provided.
+For your reference, the checksum is:
+  sha256 "d46ed49ff9cf311306deae102fca3b8fd6bd649d43c3d794cc29be6ebb523e0a"
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+######################################################################### 100.0%
+Warning: Cannot verify integrity of '74b76e2864f032c5f93b8896624453702a029d01a00d42e067a03ea6bd3f2cec--CVE-2026-66034.patch'.
+No checksum was provided.
+For your reference, the checksum is:
+  sha256 "4f4eac78ba3ecb7cd43f19e9fe23b1586caf73372a3d6a325f048098fa53b3dd"
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+######################################################################### 100.0%
+Warning: Cannot verify integrity of '20b715fb3a1213ad02c927542341ccd5af7f82a1f4dbc4f69e99bdf053bcd84c--CVE-2026-66035.patch'.
+No checksum was provided.
+For your reference, the checksum is:
+  sha256 "c5ff4520b0815006e3ee925eea9a0cc97ae4f5b93b70183f99428f2e9845ccca"
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/bdd5441abe0e0009f8101c1d4104dcab8e53a1a98b033ddd7e8155d21a63237e--libpsl.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+######################################################################### 100.0%
+Warning: Cannot verify integrity of 'd61979fcf109dc458f4ffe4e4b553277772899e2333cd526c1cccd50352854d5--3.13-sysconfig.diff'.
+No checksum was provided.
+For your reference, the checksum is:
+  sha256 "9f2eae1d08720b06ac3d9ef1999c09388b9db39dfb52687fc261ff820bff20c3"
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/65acfc54abac9dec7bbfb2a0ef4c94d0c7475f080b27d23de95a8ebe574f1eac--fmt.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/860e5fea1ca60c717ef7ca1f6b76d55c9f17fab9b04ebeadbcd8142b6fe80a49--spdlog.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+######################################################################### 100.0%
+Warning: Cannot verify integrity of 'aaa3ec9e2782838bd916f7fc1db28dc24883e65f7d43c80f113928f4e274e4f4--hardcoded-paths.diff'.
+No checksum was provided.
+For your reference, the checksum is:
+  sha256 "d846efd0bf62918350da94f850db33b0f8727fece9bfaf8164566e3094e80c97"
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/e5364390951d061dda931f866f71f25b7e4b6423c0f7de64253904e18c24eef0--icu4c@78.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/2ae7059eafb7703a012d0840fd1d46e4de236b37a5cc6b09df839ee97d3403f0--libdatrie.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/ef36df2e483d32dca9e82aa3813dbd9f96e00fd2b8eb1f2456dcd49eff5a935f--libthai.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/7e1825a41f81fbcd9c5d1e5f8912798e83d906eb680f24d5d74d87cc77e66c06--libidn.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/3794c2804c2d35dabcebd272052a1f2db89d3f6c0d184b99a9fb231d8da1b006--gnu-getopt.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/2ccd4bd215d7f8c04564db4150ddc9aecd6da8111af1b873d32531be0d0e51a6--libudfread.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/531cf1d6d77550723847593cbf3e0a5a4a18f226315a774299005742753db428--openjph.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/c5bd2efb6b521a20f6b7dc0f673be8c52164a8e94f7b893d836f5a081c2ae701--openssl@4.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/38d6dd7909d3cb0689f221652ac25b7a452c53ef01cc143df86d2fa02de65edf--texinfo.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/719bd2b61302a9734969b8c5db6cfcf0e39cc2710847f219bfb842e482a891fe--mbedtls@3.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/0a1a76762b139904de937e7e36060bf3248ef1de8ad8585c7970486f1a3177c6--llhttp.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/010e2928dab2c7e354e3c125b7b14aeb5f84591fcd0fd44f28668e2b0e84e088--libgit2.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/c68f4308bc17ed93e510b68e7bd57fd66f1e95ec74f469f64aff1cfb84a380bd--llvm.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/fe990df64dcf48bc98b0cf4bf011492496fb0647b2e9e6817e78809cf361efdf--rust.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/909674d799505a3ea2f4a963640182a7a82195e294bef486ac37cfb6d02ee702--cargo-c.rb
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a73f8f8
+Already downloaded: /Users/aaronplocharczyk/Library/Caches/Homebrew/downloads/e27263e8c894e2a6b80a0ad7f04f5809473a5638e5b7160b1e0a971401144560--sdl3.rb
+==> Fetching downloads for: m4, libarchive, brotli, libnghttp2, libnghttp3, ca-certificates, libngtcp2, libunistring, gettext, libidn2, libssh2, curl, icu4c@76, sqlite, jpeg, icu4c@77, lzip, libunibreak, python-packaging, exiftool, simdjson, swig, xtrans, freetype, fontconfig, openjpeg, leptonica, glib, xorgproto, libx11, libxext, pixman, cairo, graphite2, harfbuzz, pango, tesseract, ghostscript, python-setuptools, frei0r, nettle, cmake, opus, libuv, rtmpdump, imath, boost, python@3.13, mpg123, highway, zimg, libogg, libsodium, zeromq, libbluray, c-ares, aria2, libvmaf, aom, mbedtls, srt, pkgconf, gobject-introspection, svt-av1, libdeflate, openexr, gradle, meson, siege, certifi, libvpx, cjson, libtasn1, p11-kit, gnutls, libmicrohttpd, librist, snappy, flac, docbook, asciidoc, sphinx-doc, dav1d, autoconf, rav1e, libssh, libevent, x264, jpeg-xl, libvidstab, doxygen, x265, theora, jq, sdl2-compat, libass, lame, libsndfile, automake, unbound, z3, tree, libtool and ffmpeg
+✔︎ Formula m4 (1.4.21)                               Verified      2.1MB/  2.1MB
+✔︎ Formula libarchive (3.8.9)                        Verified      6.6MB/  6.6MB
+✔︎ API Source cmake.rb                               Verified      3.2KB/  3.2KB
+✔︎ Formula cmake (4.4.2)                             Verified     13.3MB/ 13.3MB
+✔︎ Formula brotli (1.2.0)                            Verified    646.3KB/646.3KB
+✔︎ API Source pkgconf.rb                             Verified      5.5KB/  5.5KB
+✔︎ Formula pkgconf (3.0.5)                           Verified    427.0KB/427.0KB
+✔︎ Formula libnghttp2 (1.70.0)                       Verified      3.1MB/  3.1MB
+✔︎ Formula libnghttp3 (1.18.0)                       Verified    410.9KB/410.9KB
+✔︎ Bottle ca-certificates (2026-07-16)               Downloaded  110.9KB/110.9KB
+✔︎ Formula libngtcp2 (1.25.0)                        Verified    709.1KB/709.1KB
+✔︎ Formula libunistring (1.4.2)                      Verified      5.0MB/  5.0MB
+✔︎ API Source json-c.rb                              Verified      2.0KB/  2.0KB
+✔︎ Formula json-c (0.19)                             Verified    462.2KB/462.2KB
+✔︎ Formula gettext (1.0)                             Verified     32.7MB/ 32.7MB
+✔︎ Formula libidn2 (2.3.8)                           Verified      2.2MB/  2.2MB
+✔︎ Patch 256d04b60d80bf1190e96b0ad1e91b2174d744b1.pa Verified      2.2KB/  2.2KB
+✔︎ Patch 17626857d20b3c9a1addfa45979dadcee1cd84a4.pa Verified      1.6KB/  1.6KB
+✔︎ Patch a9758da45a52bc8c630ec9493804d0c6ea30b24a.pa Verified    997.0 B/997.0 B
+✔︎ Patch a2ed82d40964bbc0d64cd717aa0a5a892117d2e6.pa Verified      1.4KB/  1.4KB
+✔︎ Formula libssh2 (1.11.1)                          Verified      1.1MB/  1.1MB
+✔︎ API Source libpsl.rb                              Verified      2.3KB/  2.3KB
+✔︎ Formula libpsl (0.23.1)                           Verified      7.8MB/  7.8MB
+✔︎ Formula curl (8.21.0)                             Verified      3.3MB/  3.3MB
+✔︎ Formula icu4c@76 (76.1)                           Verified     27.4MB/ 27.4MB
+✔︎ Formula sqlite (3.53.4)                           Verified      3.3MB/  3.3MB
+✔︎ Formula jpeg (10)                                 Verified      1.1MB/  1.1MB
+✔︎ Formula icu4c@77 (77.1)                           Verified     27.4MB/ 27.4MB
+✔︎ Formula lzip (1.26)                               Verified    120.5KB/120.5KB
+✔︎ Formula libunibreak (7.0)                         Verified    885.9KB/885.9KB
+✔︎ API Source python@3.13.rb                         Verified     24.0KB/ 24.0KB
+✔︎ Resource python@3.13--flit-core                   Verified     53.1KB/ 53.1KB
+✔︎ Resource python@3.13--packaging                   Verified    313.4KB/313.4KB
+✔︎ Resource python@3.13--pip                         Verified      1.8MB/  1.8MB
+✔︎ Resource python@3.13--wheel                       Verified     63.9KB/ 63.9KB
+✔︎ Formula python@3.13 (3.13.15)                     Verified     30.1MB/ 30.1MB
+✔︎ Formula python-packaging (26.3)                   Preparing   313.4KB/313.4KB
+✔︎ Resource exiftool--FFI::CheckLib                  Verified     37.2KB/ 37.2KB
+✔︎ Resource exiftool--File::Which                    Verified     25.1KB/ 25.1KB
+✔︎ Resource exiftool--Capture::Tiny                  Verified     35.6KB/ 35.6KB
+✔︎ Resource exiftool--File::chdir                    Verified     25.1KB/ 25.1KB
+✔︎ Resource exiftool--Path::Tiny                     Verified    105.9KB/105.9KB
+✔︎ Resource exiftool--Alien::Build                   Verified    548.4KB/548.4KB
+✔︎ Resource exiftool--Mozilla::CA                    Verified    146.3KB/146.3KB
+✔︎ Resource exiftool--Sort::Versions                 Verified     12.3KB/ 12.3KB
+✔︎ Resource exiftool--Alien::cmake3                  Verified     19.6KB/ 19.6KB
+✔︎ Resource exiftool--File::Slurper                  Verified     16.1KB/ 16.1KB
+✔︎ Resource exiftool--IO::Compress::Brotli           Verified      7.8MB/  7.8MB
+✔︎ Formula exiftool (13.55)                          Verified      7.8MB/  7.8MB
+✔︎ Formula simdjson (4.6.6)                          Verified      6.7MB/  6.7MB
+✔︎ Formula swig (4.5.0)                              Verified      9.2MB/  9.2MB
+✔︎ Bottle xtrans (1.6.0)                             Downloaded   80.2KB/ 80.2KB
+✔︎ Formula freetype (2.14.3)                         Verified      2.7MB/  2.7MB
+✔︎ Bottle meson (1.11.2)                             Downloaded  945.8KB/945.8KB
+✔︎ Formula fontconfig (2.18.3)                       Verified    666.8KB/666.8KB
+✔︎ API Source fmt.rb                                 Verified      1.9KB/  1.9KB
+✔︎ Formula fmt (12.2.0)                              Verified      1.5MB/  1.5MB
+✔︎ API Source spdlog.rb                              Verified      2.6KB/  2.6KB
+✔︎ Formula spdlog (1.17.0)                           Verified    281.8KB/281.8KB
+✔︎ API Source doxygen.rb                             Verified      2.4KB/  2.4KB
+✔︎ Patch a9eb9243717b93a44dbd046cccd52b96bd7520d2.pa Verified      1.3KB/  1.3KB
+✔︎ Formula doxygen (1.17.0)                          Verified      9.4MB/  9.4MB
+✔︎ Formula openjpeg (2.5.4)                          Verified      2.2MB/  2.2MB
+✔︎ Formula leptonica (1.87.0)                        Verified     14.8MB/ 14.8MB
+✔︎ Bottle python-setuptools (83.0.0)                 Downloaded  946.2KB/946.2KB
+✔︎ Resource glib--gobject-introspection              Verified      1.1MB/  1.1MB
+✔︎ Formula glib (2.88.3)                             Verified      5.8MB/  5.8MB
+✔︎ Formula xorgproto (2025.1)                        Verified      1.1MB/  1.1MB
+✔︎ Formula libx11 (1.8.13)                           Verified      3.2MB/  3.2MB
+✔︎ Formula libxext (1.3.7)                           Verified    526.1KB/526.1KB
+✔︎ Formula pixman (0.46.4)                           Verified    827.2KB/827.2KB
+✔︎ Formula cairo (1.18.4)                            Verified     32.6MB/ 32.6MB
+✔︎ Formula graphite2 (1.3.15)                        Verified     13.7MB/ 13.7MB
+✔︎ API Source icu4c@78.rb                            Verified      2.3KB/  2.3KB
+✔︎ Formula icu4c@78 (78.3)                           Verified     28.0MB/ 28.0MB
+✔︎ API Source gobject-introspection.rb               Verified      5.9KB/  5.9KB
+✔︎ Resource gobject-introspection--mako              Verified    400.2KB/400.2KB
+✔︎ Resource gobject-introspection--markdown          Verified    368.8KB/368.8KB
+✔︎ Resource gobject-introspection--markupsafe        Verified     80.3KB/ 80.3KB
+✔︎ Resource gobject-introspection--setuptools        Verified      1.2MB/  1.2MB
+✔︎ Formula gobject-introspection (1.86.0)            Preparing     1.1MB/  1.1MB
+✔︎ Formula harfbuzz (14.3.0)                         Verified     19.8MB/ 19.8MB
+✔︎ API Source libdatrie.rb                           Verified      2.1KB/  2.1KB
+✔︎ Formula libdatrie (0.2.14)                        Verified    325.7KB/325.7KB
+✔︎ API Source libthai.rb                             Verified      1.8KB/  1.8KB
+✔︎ Formula libthai (0.1.30)                          Verified    436.0KB/436.0KB
+✔︎ Formula pango (1.58.2)                            Verified      1.9MB/  1.9MB
+✔︎ API Source autoconf.rb                            Verified      2.5KB/  2.5KB
+✔︎ Formula autoconf (2.73)                           Verified      2.2MB/  2.2MB
+✔︎ API Source automake.rb                            Verified      3.0KB/  3.0KB
+✔︎ Formula automake (1.18.1)                         Verified      1.7MB/  1.7MB
+✔︎ API Source libtool.rb                             Verified      2.9KB/  2.9KB
+✔︎ Formula libtool (2.6.2)                           Verified      1.1MB/  1.1MB
+✔︎ Resource tesseract--eng                           Verified      4.1MB/  4.1MB
+✔︎ Resource tesseract--osd                           Verified     10.6MB/ 10.6MB
+✔︎ Resource tesseract--snum                          Verified      8.5MB/  8.5MB
+✔︎ Formula tesseract (5.5.3)                         Verified      1.9MB/  1.9MB
+✔︎ Bottle Manifest jbig2dec (0.20)                   Downloaded   12.9KB/ 12.9KB
+✔︎ Bottle jbig2dec (0.20)                            Downloaded  123.5KB/123.5KB
+✔︎ API Source libidn.rb                              Verified      1.4KB/  1.4KB
+✔︎ Formula libidn (1.44)                             Verified      2.6MB/  2.6MB
+✔︎ Resource ghostscript--fonts                       Verified      3.8MB/  3.8MB
+✔︎ Formula ghostscript (10.07.1)                     Verified     74.5MB/ 74.5MB
+✔︎ Formula frei0r (3.2.3)                            Verified      4.2MB/  4.2MB
+✔︎ Formula nettle (4.0)                              Verified      2.6MB/  2.6MB
+✔︎ Formula opus (1.6.1)                              Verified     10.5MB/ 10.5MB
+✔︎ Bottle certifi (2026.7.22)                        Downloaded    6.5KB/  6.5KB
+✔︎ API Source sphinx-doc.rb                          Verified      7.1KB/  7.1KB
+✔︎ Resource sphinx-doc--alabaster                    Verified     24.2KB/ 24.2KB
+✔︎ Resource sphinx-doc--babel                        Verified     10.0MB/ 10.0MB
+✔︎ Resource sphinx-doc--charset-normalizer           Verified    144.3KB/144.3KB
+✔︎ Resource sphinx-doc--docutils                     Verified      2.3MB/  2.3MB
+✔︎ Resource sphinx-doc--idna                         Verified    199.2KB/199.2KB
+✔︎ Resource sphinx-doc--imagesize                    Verified      1.8MB/  1.8MB
+✔︎ Resource sphinx-doc--jinja2                       Verified    245.1KB/245.1KB
+✔︎ Resource sphinx-doc--numpydoc                     Verified     94.0KB/ 94.0KB
+✔︎ Resource sphinx-doc--packaging                    Verified    228.1KB/228.1KB
+✔︎ Resource sphinx-doc--pygments                     Verified      5.0MB/  5.0MB
+✔︎ Resource sphinx-doc--requests                     Verified    142.4KB/142.4KB
+✔︎ Resource sphinx-doc--roman-numerals               Verified      9.1KB/  9.1KB
+✔︎ Resource sphinx-doc--snowballstemmer              Verified    105.6KB/105.6KB
+✔︎ Resource sphinx-doc--sphinxcontrib-applehelp      Verified     20.1KB/ 20.1KB
+✔︎ Resource sphinx-doc--sphinxcontrib-devhelp        Verified     13.0KB/ 13.0KB
+✔︎ Resource sphinx-doc--sphinxcontrib-htmlhelp       Verified     22.6KB/ 22.6KB
+✔︎ Resource sphinx-doc--sphinxcontrib-jsmath         Verified      5.8KB/  5.8KB
+✔︎ Resource sphinx-doc--sphinxcontrib-qthelp         Verified     17.2KB/ 17.2KB
+✔︎ Resource sphinx-doc--sphinxcontrib-serializinghtm Verified     16.1KB/ 16.1KB
+✔︎ Resource sphinx-doc--urllib3                      Verified    433.6KB/433.6KB
+✔︎ Formula sphinx-doc (9.1.0)                        Verified      8.7MB/  8.7MB
+✔︎ Formula libuv (1.52.1)                            Verified      1.4MB/  1.4MB
+✔︎ Formula rtmpdump (2.6)
+✔︎ Formula imath (3.2.2)                             Verified    689.2KB/689.2KB
+✔︎ Patch 9ac89e9936b826c13e90611cb9a81a7aa0508d20.pa Verified      1.0KB/  1.0KB
+✔︎ Formula boost (1.90.0)                            Verified     51.9MB/ 51.9MB
+✔︎ Formula mpg123 (1.33.7)                           Verified      1.1MB/  1.1MB
+✔︎ Formula highway (1.4.0)                           Verified      3.7MB/  3.7MB
+✔︎ Formula zimg (3.0.6)                              Verified    326.7KB/326.7KB
+✔︎ Formula libogg (1.3.6)                            Verified    604.5KB/604.5KB
+✔︎ Formula libsodium (1.0.22)                        Verified      2.0MB/  2.0MB
+✔︎ API Source docbook.rb                             Verified      5.1KB/  5.1KB
+✔︎ Resource docbook--4.2                             Verified     78.4KB/ 78.4KB
+✔︎ Resource docbook--4.1.2                           Verified     75.7KB/ 75.7KB
+✔︎ Resource docbook--4.3                             Verified     83.9KB/ 83.9KB
+✔︎ Resource docbook--4.4                             Verified     96.1KB/ 96.1KB
+✔︎ Resource docbook--4.5                             Verified     98.5KB/ 98.5KB
+✔︎ Resource docbook--5.0                             Verified    835.8KB/835.8KB
+✔︎ Resource docbook--5.0.1                           Verified    836.1KB/836.1KB
+✔︎ Resource docbook--5.1                             Verified    768.6KB/768.6KB
+✔︎ Resource docbook--5.2                             Verified    991.6KB/991.6KB
+✔︎ Resource docbook--5.2.1                           Verified    685.8KB/685.8KB
+✔︎ Formula docbook (5.2.1)                           Preparing   685.8KB/685.8KB
+✔︎ Bottle asciidoc (10.2.1_1)                        Downloaded  228.8KB/228.8KB
+✔︎ API Source gnu-getopt.rb                          Verified      3.5KB/  3.5KB
+✔︎ Patch d22edc2f100eb8dd83d3515758565cb73b0d2eed.pa Verified    956.0 B/956.0 B
+✔︎ Formula gnu-getopt (2.42.2)                       Verified     23.1MB/ 23.1MB
+✔︎ Bottle xmlto (0.0.29)                             Downloaded   44.0KB/ 44.0KB
+✔︎ Formula zeromq (4.3.5)                            Verified      2.5MB/  2.5MB
+✔︎ API Source libudfread.rb                          Verified      2.0KB/  2.0KB
+✔︎ Formula libudfread (1.2.0)                        Verified     28.7KB/ 28.7KB
+✔︎ Formula libbluray (1.5.0)                         Verified    473.1KB/473.1KB
+✔︎ Formula c-ares (1.34.8)                           Verified      1.0MB/  1.0MB
+✔︎ Formula aria2 (1.37.0)                            Verified      1.7MB/  1.7MB
+✔︎ Formula libvmaf (3.2.0)                           Verified     18.6MB/ 18.6MB
+✔︎ Formula aom (3.14.1)
+✔︎ Formula mbedtls (4.2.0)                           Verified      7.4MB/  7.4MB
+✔︎ Formula srt (1.5.6)                               Verified      1.8MB/  1.8MB
+✔︎ Formula svt-av1 (4.2.0)                           Verified     10.3MB/ 10.3MB
+✔︎ Formula libdeflate (1.25)                         Verified    197.5KB/197.5KB
+✔︎ API Source openjph.rb                             Verified      1.9KB/  1.9KB
+✔︎ Formula openjph (0.31.0)                          Verified    534.8KB/534.8KB
+✔︎ Formula openexr (3.4.14)                          Verified     25.8MB/ 25.8MB
+✔︎ Bottle gradle (9.7.0)                             Downloaded  156.3MB/156.3MB
+✔︎ Bottle Manifest gradle-completion (9.6.1)         Downloaded    1.7KB/  1.7KB
+✔︎ Bottle gradle-completion (9.6.1)                  Downloaded   17.0KB/ 17.0KB
+✔︎ API Source openjdk.rb                             Verified      5.8KB/  5.8KB
+✔︎ Resource openjdk--boot-jdk                        Verified    222.5MB/222.5MB
+✔︎ Formula openjdk (26.0.2)                          Verified    121.7MB/121.7MB
+✔︎ API Source openssl@4.rb                           Verified      5.0KB/  5.0KB
+✔︎ Patch 1e386aab890b52f46641ab18e1a56cabb1b8c47b.pa Verified     10.8KB/ 10.8KB
+✔︎ Patch d9f73e36c5fe720b3367e0fc6501683a3f91193a.pa Verified      1.9KB/  1.9KB
+✔︎ Formula openssl@4 (4.0.1)                         Verified     55.1MB/ 55.1MB
+✔︎ Formula siege (4.1.7)                             Verified    543.4KB/543.4KB
+✔︎ Formula libvpx (1.16.0)                           Verified      5.6MB/  5.6MB
+✔︎ Patch a29814f285cc531c00223743ad3c55cd38c0dc56.pa Verified    650.0 B/650.0 B
+✔︎ Formula cjson (1.7.19)                            Verified    356.2KB/356.2KB
+✔︎ Formula libtasn1 (4.21.0)                         Verified      1.8MB/  1.8MB
+✔︎ Formula p11-kit (0.26.5)                          Verified      1.1MB/  1.1MB
+✔︎ API Source texinfo.rb                             Verified      2.2KB/  2.2KB
+✔︎ Formula texinfo (7.3)                             Verified      6.9MB/  6.9MB
+✔︎ Patch 29c2027c963cf559817d0da37c1fc2efd0c1bd6a.di Verified    819.0 B/819.0 B
+✔︎ Formula gnutls (3.8.13)                           Verified      7.3MB/  7.3MB
+✔︎ Formula libmicrohttpd (1.0.10)                    Verified      2.6MB/  2.6MB
+✔︎ API Source mbedtls@3.rb                           Verified      3.3KB/  3.3KB
+✔︎ Formula mbedtls@3 (3.6.7)                         Verified      5.5MB/  5.5MB
+✔︎ Formula librist (0.2.20)                          Verified      3.5MB/  3.5MB
+✔︎ Formula snappy (1.2.2)                            Verified      1.1MB/  1.1MB
+✔︎ Formula flac (1.5.0)                              Verified      1.1MB/  1.1MB
+✔︎ Formula dav1d (1.5.4)                             Verified      1.2MB/  1.2MB
+✔︎ API Source llhttp.rb                              Verified      2.3KB/  2.3KB
+✔︎ Formula llhttp (9.4.3)                            Verified     40.4KB/ 40.4KB
+✔︎ API Source libgit2.rb                             Verified      2.6KB/  2.6KB
+✔︎ Formula libgit2 (1.9.6)                           Verified      7.8MB/  7.8MB
+✔︎ API Source llvm.rb                                Verified     34.0KB/ 34.0KB
+✔︎ Patch 1381ad497b9a6d3da630cbef53cbfa9ddf117bb6... Verified      4.5KB/  4.5KB
+✔︎ Formula llvm (22.1.8)                             Verified    167.1MB/167.1MB
+✔︎ API Source rust.rb                                Verified      9.1KB/  9.1KB
+✔︎ Resource rust--rustc-bootstrap                    Verified     80.3MB/ 80.3MB
+✔︎ Resource rust--cargo-bootstrap                    Verified      9.5MB/  9.5MB
+✔︎ Resource rust--rust-std-bootstrap                 Verified     28.9MB/ 28.9MB
+✔︎ Formula rust (1.97.1)                             Verified    527.7MB/527.7MB
+✔︎ API Source cargo-c.rb                             Verified      2.4KB/  2.4KB
+✔︎ Formula cargo-c (0.10.24)                         Verified     38.5KB/ 38.5KB
+✔︎ Formula rav1e (0.8.1)                             Verified      3.0MB/  3.0MB
+✔︎ Formula libssh (0.12.2)                           Verified    759.7KB/759.7KB
+✔︎ Formula libevent (2.1.13)                         Verified      1.1MB/  1.1MB
+✔︎ Formula x264 (r3222)
+✔︎ Resource jpeg-xl--sjpeg                           Verified      2.5MB/  2.5MB
+✔︎ Formula jpeg-xl (0.12.0)                          Verified      1.7MB/  1.7MB
+✔︎ Formula libvidstab (1.1.2)                        Verified    131.6

@@ -1,0 +1,13 @@
+.hero-video{
+  width:100%;
+  aspect-ratio:16/9;
+}
+
+.hero-video video {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  min-height: 450px;
+  display: block;
+  overflow: clip;
+}
