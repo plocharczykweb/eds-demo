@@ -60,19 +60,19 @@
 .hero-slider-overlay h2 {
   margin: 0 0 8px;
   color: white;
-  font-size: clamp(32px, 4vw, 52px);
+  font-size: 32px;
   line-height: 1;
 }
 
 .hero-slider-description {
-  margin: 0 0 24px;
-  font-size: clamp(18px, 2vw, 28px);
+  margin: 0 0 30px;
+  font-size: 20px;
   line-height: 1.25;
 }
 
 .hero-slider-meta {
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .hero-slider-arrow {
