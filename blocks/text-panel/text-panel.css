@@ -1,6 +1,11 @@
 .text-panel{
-  padding:40px 20px;
+  padding:20px;
   font-size:18px;
+  text-align:center;
+}
+
+text-panel p{
+  margin:0px
 }
 
 .text-panel a{
