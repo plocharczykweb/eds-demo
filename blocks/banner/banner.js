@@ -10,7 +10,7 @@ function slideBanner(block) {
     if (!firstBanner) return;
 
     // Animate first banner out to the left
-    firstBanner.style.transition = 'margin-left 500ms ease';
+    firstBanner.style.transition = 'margin-left 800ms ease';
     firstBanner.style.marginLeft = '-100%';
 
     setTimeout(() => {
