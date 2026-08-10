@@ -2,6 +2,11 @@ main > .section > div.banner-wrapper{
   padding:0px;
 }
 
+.banner>div{
+  white-space:nowrap;
+  overflow:hidden;
+}
+
 .banner>div>div{
   float:left;
   width:100%;
@@ -11,6 +16,6 @@ main > .section > div.banner-wrapper{
 }
 
 .banner p{
-  font-size:1.4rem;
+  font-size:14px;
   margin:0px;
 }
