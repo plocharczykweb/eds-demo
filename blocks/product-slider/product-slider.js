@@ -61,11 +61,15 @@ export default function decorate(block) {
     const maxScrollLeft = track.scrollWidth - track.clientWidth;
 
     prev.hidden = track.scrollLeft <= 1;
-    next.hidden = track.scrollLeft >= maxScrollLeft - 1;
+
+    next.hidden =
+      maxScrollLeft <= 1 ||
+      track.scrollLeft >= maxScrollLeft - 1;
   }
 
   function scroll(direction) {
     const item = track.querySelector('.product-slider-item');
+
     if (!item) return;
 
     const gap = parseFloat(getComputedStyle(track).gap) || 0;
@@ -77,12 +81,25 @@ export default function decorate(block) {
     });
   }
 
-  prev.addEventListener('click', () => scroll(-1));
-  next.addEventListener('click', () => scroll(1));
+  prev.addEventListener('click', () => {
+    scroll(-1);
+  });
+
+  next.addEventListener('click', () => {
+    scroll(1);
+  });
 
   track.addEventListener('scroll', updateArrows);
 
   window.addEventListener('resize', updateArrows);
 
-  updateArrows();
+  track.querySelectorAll('img').forEach((img) => {
+    if (!img.complete) {
+      img.addEventListener('load', updateArrows);
+    }
+  });
+
+  requestAnimationFrame(() => {
+    requestAnimationFrame(updateArrows);
+  });
 }
