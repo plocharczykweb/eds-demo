@@ -1,0 +1,151 @@
+.hero-slider-container .hero-slider-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.hero-slider {
+  width: 100%;
+}
+
+.hero-slider-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-slider-track {
+  display: flex;
+  width: 100%;
+  transition: transform 400ms ease;
+}
+
+.hero-slider-slide {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  min-height: 520px;
+  overflow: hidden;
+}
+
+.hero-slider-slide::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgb(0 0 0 / 55%) 0%,
+    rgb(0 0 0 / 20%) 40%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+.hero-slider-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 520px;
+  object-fit: cover;
+}
+
+.hero-slider-overlay {
+  position: absolute;
+  z-index: 2;
+  left: 52px;
+  bottom: 42px;
+  max-width: 650px;
+  color: white;
+}
+
+.hero-slider-overlay h2 {
+  margin: 0 0 8px;
+  color: white;
+  font-size: clamp(32px, 4vw, 52px);
+  line-height: 1;
+}
+
+.hero-slider-description {
+  margin: 0 0 24px;
+  font-size: clamp(18px, 2vw, 28px);
+  line-height: 1.25;
+}
+
+.hero-slider-meta {
+  margin: 0;
+  font-size: 16px;
+}
+
+.hero-slider-arrow {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  border: 0;
+  border-radius: 50%;
+  background: white;
+  font-size: 30px;
+  line-height: 1;
+  cursor: pointer;
+  transform: translateY(-50%);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 20%);
+}
+
+.hero-slider-prev {
+  left: 48px;
+}
+
+.hero-slider-next {
+  right: 48px;
+}
+
+.hero-slider-dots {
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  bottom: 20px;
+  display: flex;
+  gap: 12px;
+  transform: translateX(-50%);
+}
+
+.hero-slider-dot {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  border: 2px solid white;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.hero-slider-dot.active {
+  background: white;
+}
+
+@media (max-width: 900px) {
+  .hero-slider-slide,
+  .hero-slider-slide img {
+    min-height: 500px;
+  }
+
+  .hero-slider-overlay {
+    left: 24px;
+    right: 24px;
+    bottom: 54px;
+  }
+
+  .hero-slider-arrow {
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+  }
+
+  .hero-slider-prev {
+    left: 16px;
+  }
+
+  .hero-slider-next {
+    right: 16px;
+  }
+}
