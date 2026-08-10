@@ -1,21 +1,25 @@
-function slideBanner() {
-  var container = document.querySelector(".banner > div");
-  
+function slideBanner(block) {
+  const container = block.querySelector(':scope > div');
+
+  if (!container) return;
+
   function slide() {
-    var banners = container.querySelectorAll(":scope > div");
-    var firstBanner = banners[0];
+    const banners = container.querySelectorAll(':scope > div');
+    const firstBanner = banners[0];
+
+    if (!firstBanner) return;
 
     // Animate first banner out to the left
-    firstBanner.style.transition = "margin-left 300ms ease";
-    firstBanner.style.marginLeft = "-100%";
+    firstBanner.style.transition = 'margin-left 300ms ease';
+    firstBanner.style.marginLeft = '-100%';
 
-    setTimeout(function () {
+    setTimeout(() => {
       // Move it to the end
       container.appendChild(firstBanner);
 
       // Reset it without animating
-      firstBanner.style.transition = "none";
-      firstBanner.style.marginLeft = "0";
+      firstBanner.style.transition = 'none';
+      firstBanner.style.marginLeft = '0';
 
       // Wait 2500ms before sliding again
       setTimeout(slide, 2500);
@@ -25,6 +29,6 @@ function slideBanner() {
   setTimeout(slide, 2500);
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  slideBanner();
-});
+export default function decorate(block) {
+  slideBanner(block);
+}
