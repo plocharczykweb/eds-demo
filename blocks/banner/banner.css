@@ -5,14 +5,14 @@ main > .section > div.banner-wrapper{
 .banner>div{
   white-space:nowrap;
   overflow:hidden;
+  background:#f5f5f5;
 }
 
 .banner>div>div{
-  float:left;
+  display:inline-block;
   width:100%;
   padding:10px 0px;
   text-align:center;
-  background:#f5f5f5;
 }
 
 .banner p{
