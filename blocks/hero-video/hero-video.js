@@ -17,22 +17,32 @@ export default function decorate(block) {
   video.loop = true;
   video.playsInline = true;
 
-  // Mobile source
-  if (mobileUrl) {
-    const mobileSource = document.createElement('source');
-    mobileSource.src = mobileUrl;
-    mobileSource.media = '(max-width: 900px)';
-    mobileSource.type = 'video/mp4';
+  const mediaQuery = window.matchMedia('(max-width: 900px)');
 
-    video.append(mobileSource);
+  function updateVideo() {
+    const newUrl = mediaQuery.matches && mobileUrl
+      ? mobileUrl
+      : desktopUrl;
+
+    const currentUrl = video.getAttribute('src');
+
+    if (currentUrl === newUrl) return;
+
+    video.pause();
+    video.src = newUrl;
+    video.load();
+
+    video.play().catch(() => {
+      // Ignore autoplay rejection.
+    });
   }
 
-  // Desktop/default source
-  const desktopSource = document.createElement('source');
-  desktopSource.src = desktopUrl;
-  desktopSource.type = 'video/mp4';
-
-  video.append(desktopSource);
-
   block.replaceChildren(video);
+
+  updateVideo();
+
+  mediaQuery.addEventListener('change', updateVideo);
+
+  // Also handle browser/devtools resize behavior.
+  window.addEventListener('resize', updateVideo);
 }
