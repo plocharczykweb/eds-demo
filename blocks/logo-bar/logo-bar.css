@@ -1,0 +1,35 @@
+.logo-bar-container .logo-bar-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.logo-bar {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 96px;
+  padding: 0 70px;
+  box-sizing: border-box;
+
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+}
+
+.logo-bar-logo {
+  display: block;
+  width: auto;
+  height: 30px;
+  max-width: 100%;
+}
+
+@media (max-width: 900px) {
+  .logo-bar {
+    height: 72px;
+    padding: 0 24px;
+  }
+
+  .logo-bar-logo {
+    height: 25px;
+  }
+}
