@@ -75,6 +75,10 @@
 }
 
 @media (max-width: 900px) {
+  .product-slider{
+    padding:20px 30px;
+  }
+
   .product-slider h2 {
     font-size:16px;
   }
@@ -85,6 +89,7 @@
 
   .product-slider-item img{
     aspect-ratio:4/6;
+    border-radius:15px;
   }
 
   .product-slider-arrow {
@@ -98,7 +103,8 @@
   }
 
   .product-slider-label {
-    font-size:14px;
+    font-size:13px;
+    margin-top:5px;
     line-height:150%;
   }
 }

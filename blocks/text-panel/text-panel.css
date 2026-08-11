@@ -4,6 +4,10 @@
   text-align:center;
 }
 
+.text-panel a{
+  white-space:nowrap;
+}
+
 text-panel p{
   margin:0px
 }
@@ -11,4 +15,10 @@ text-panel p{
 .text-panel a{
   color:#00808c;
   font-weight:bold;
+}
+
+@media (max-width: 900px) {
+  .text-panel{
+    font-size:16px;
+  }
 }
