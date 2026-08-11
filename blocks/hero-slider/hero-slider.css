@@ -128,15 +128,19 @@
 }
 
 @media (max-width: 900px) {
+  .hero-slider{
+    margin-bottom:2px;
+  }
+
   .hero-slider-slide,
   .hero-slider-slide img {
     min-height: 250px;
   }
 
   .hero-slider-overlay {
-    left: 24px;
-    right: 24px;
-    bottom: 54px;
+    left: 10px;
+    right: 10px;
+    bottom: 18px;
   }
   
   .hero-slider-description {
