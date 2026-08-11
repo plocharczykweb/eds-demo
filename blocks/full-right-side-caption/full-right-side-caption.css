@@ -90,13 +90,14 @@
 
 @media (max-width: 900px) {
   .full-right-side-caption-inner {
+    border-radius:0px;
     grid-template-columns: 1fr;
     border-radius: 20px;
   }
 
   .full-right-side-caption-media,
   .full-right-side-caption-media img {
-    min-height: 360px;
+    min-height: 250px;
   }
 
   .full-right-side-caption-content {
@@ -104,11 +105,18 @@
   }
 
   .full-right-side-caption-content h2 {
+    font-size:30px;
+    line-height:120%;
     margin-bottom: 20px;
   }
 
   .full-right-side-caption-body {
+    font-size:16px;
     margin-bottom: 28px;
+  }
+
+  .full-right-side-caption-bottom p{
+    font-size:16px;
   }
 
   .full-right-side-caption-statement {
