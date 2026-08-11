@@ -4,17 +4,22 @@ export default function decorate(block) {
   const headingRow = rows[0];
   const descriptionRow = rows[1];
   const buttonRow = rows[2];
-  const videoRow = rows[3];
+  const desktopVideoRow = rows[3];
+  const mobileVideoRow = rows[4];
 
-  if (!headingRow || !videoRow) return;
+  if (!headingRow || !desktopVideoRow) return;
 
   const headingText = headingRow.textContent.trim();
   const descriptionText = descriptionRow?.textContent.trim() || '';
-  const videoUrl = videoRow.textContent.trim();
+
+  const desktopVideoUrl = desktopVideoRow.textContent.trim();
+  const mobileVideoUrl =
+    mobileVideoRow?.textContent.trim() || desktopVideoUrl;
 
   const sourceLink = buttonRow?.querySelector('a');
 
-  let buttonText = sourceLink?.textContent.trim()
+  let buttonText =
+    sourceLink?.textContent.trim()
     || buttonRow?.textContent.trim()
     || '';
 
@@ -60,11 +65,40 @@ export default function decorate(block) {
   media.className = 'padded-left-side-caption-media';
 
   const video = document.createElement('video');
-  video.src = videoUrl;
+
   video.autoplay = true;
   video.muted = true;
   video.loop = true;
   video.playsInline = true;
+
+  const mobileQuery = window.matchMedia('(max-width: 900px)');
+
+  function setVideoSource() {
+    const newUrl = mobileQuery.matches
+      ? mobileVideoUrl
+      : desktopVideoUrl;
+
+    if (video.src === newUrl) return;
+
+    video.src = newUrl;
+    video.load();
+
+    const playPromise = video.play();
+
+    if (playPromise !== undefined) {
+      playPromise.catch(() => {
+        // Autoplay may be blocked by the browser.
+      });
+    }
+  }
+
+  setVideoSource();
+
+  if (mobileQuery.addEventListener) {
+    mobileQuery.addEventListener('change', setVideoSource);
+  } else {
+    mobileQuery.addListener(setVideoSource);
+  }
 
   media.append(video);
 
