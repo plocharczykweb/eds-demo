@@ -2,15 +2,27 @@ export default function decorate(block) {
   const rows = [...block.children];
 
   const headingRow = rows[0];
-  const imageRow = rows[1];
-  const labelRow = rows[2];
+  const desktopImageRow = rows[1];
+  const mobileImageRow = rows[2];
+  const labelRow = rows[3];
 
-  if (!headingRow || !imageRow || !labelRow) return;
+  if (!headingRow || !desktopImageRow || !labelRow) return;
 
   const heading = headingRow.textContent.trim();
 
-  const images = [...imageRow.children].map((cell) => cell.textContent.trim());
-  const labels = [...labelRow.children].map((cell) => cell.textContent.trim());
+  const desktopImages = [...desktopImageRow.children].map(
+    (cell) => cell.textContent.trim(),
+  );
+
+  const mobileImages = mobileImageRow
+    ? [...mobileImageRow.children].map(
+      (cell) => cell.textContent.trim(),
+    )
+    : [];
+
+  const labels = [...labelRow.children].map(
+    (cell) => cell.textContent.trim(),
+  );
 
   block.innerHTML = '';
 
@@ -23,22 +35,36 @@ export default function decorate(block) {
   const track = document.createElement('div');
   track.className = 'product-slider-track';
 
-  images.forEach((src, index) => {
-    if (!src) return;
+  desktopImages.forEach((desktopSrc, index) => {
+    if (!desktopSrc) return;
+
+    const mobileSrc = mobileImages[index] || desktopSrc;
 
     const item = document.createElement('div');
     item.className = 'product-slider-item';
 
+    const picture = document.createElement('picture');
+
+    if (mobileSrc) {
+      const mobileSource = document.createElement('source');
+      mobileSource.media = '(max-width: 900px)';
+      mobileSource.srcset = mobileSrc;
+
+      picture.append(mobileSource);
+    }
+
     const img = document.createElement('img');
-    img.src = src;
+    img.src = desktopSrc;
     img.alt = labels[index] || '';
     img.loading = 'lazy';
+
+    picture.append(img);
 
     const label = document.createElement('div');
     label.className = 'product-slider-label';
     label.textContent = labels[index] || '';
 
-    item.append(img, label);
+    item.append(picture, label);
     track.append(item);
   });
 
