@@ -1,12 +1,22 @@
-.hero-video{
-  width:100%;
+.hero-video {
+  width: 100%;
+  overflow: hidden;
 }
 
 .hero-video video {
-  object-fit: cover;
+  display: block;
   width: 100%;
   height: auto;
   min-height: 450px;
-  display: block;
-  overflow: clip;
+  object-fit: cover;
+}
+
+/* Mobile: show the entire video instead of cropping it */
+@media (max-width: 900px) {
+  .hero-video video {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    object-fit: contain;
+  }
 }

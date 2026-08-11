@@ -1,3 +1,8 @@
+header.header-wrapper{
+  position:relative;
+  z-index:4;
+}
+
 .logo-bar-container .logo-bar-wrapper {
   max-width: none;
   padding: 0;
