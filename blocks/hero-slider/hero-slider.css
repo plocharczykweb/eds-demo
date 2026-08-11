@@ -142,7 +142,11 @@
     right: 10px;
     bottom: 25px;
   }
-  
+
+  .hero-slider-overlay h2 {
+    font-size:30px;
+  }
+    
   .hero-slider-description {
     font-size:15px;
     margin:0 0 12px;

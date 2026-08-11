@@ -72,6 +72,7 @@
     height: 250px;
     min-height: 0;
     border-radius: 0;
+    margin-bottom:30px;
   }
 
   .dual-product-panel-item:first-of-type,
@@ -87,8 +88,21 @@
   }
 
   .dual-product-panel-content {
-    left: 24px;
-    right: 24px;
-    bottom: 24px;
+    left: 10px;
+    right: 10px;
+    bottom: 25px;
+  }
+
+  .dual-product-panel-content h2 {
+    font-size:30px;
+  }
+
+  .dual-product-panel-description{
+    font-size:15px;
+    margin-bottom:12px;
+  }
+
+  .dual-product-panel-meta{
+    font-size:12px;
   }
 }
