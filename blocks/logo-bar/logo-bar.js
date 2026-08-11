@@ -3,9 +3,15 @@ export default function decorate(block) {
 
   if (!row) return;
 
-  const imageUrl = row.textContent.trim();
+  let imageUrl = row.textContent.trim();
 
   if (!imageUrl) return;
+
+  // SVGs should be requested directly rather than through
+  // Lovesac's raster image transformation parameters.
+  if (imageUrl.toLowerCase().includes('.svg')) {
+    imageUrl = imageUrl.split('?')[0];
+  }
 
   block.innerHTML = '';
 
