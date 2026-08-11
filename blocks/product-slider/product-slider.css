@@ -90,7 +90,7 @@
   }
 
   .product-slider-item {
-    flex: 0 0 min(46vw, 203px);
+    flex: 0 0 min(37vw, 203px);
   }
 
   .product-slider-label {
