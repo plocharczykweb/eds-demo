@@ -38,7 +38,7 @@
 
 .full-right-side-caption-content h2 {
   margin: 0 0 28px;
-  font-size: 39px;
+  font-size: 36px;
   line-height: 1;
   text-transform: uppercase;
 }
@@ -46,13 +46,13 @@
 .full-right-side-caption-body {
   max-width: 700px;
   margin: 0 0 36px;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.35;
 }
 
 .full-right-side-caption-statement {
   margin: 0 0 38px;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
 }
 
@@ -69,12 +69,12 @@
 }
 
 .full-right-side-caption-bottom {
-  font-size: clamp(20px, 1.8vw, 26px);
+  font-size: 18;
   font-weight: 700;
 }
 
 .full-right-side-caption-bottom p {
-  margin: 0 0 38px;
+  margin: 0 0 30px;
 }
 
 .full-right-side-caption-bottom p:last-child {
