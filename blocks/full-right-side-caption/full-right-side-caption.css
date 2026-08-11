@@ -92,16 +92,15 @@
   .full-right-side-caption-inner {
     border-radius:0px;
     grid-template-columns: 1fr;
-    border-radius: 20px;
   }
 
   .full-right-side-caption-media,
   .full-right-side-caption-media img {
-    min-height: 250px;
+    min-height: 210px;
   }
 
   .full-right-side-caption-content {
-    padding: 40px 24px;
+    padding: 30px 24px 60px 24px;
   }
 
   .full-right-side-caption-content h2 {
@@ -117,6 +116,7 @@
 
   .full-right-side-caption-bottom p{
     font-size:16px;
+    margin-bottom:25px;
   }
 
   .full-right-side-caption-statement {
