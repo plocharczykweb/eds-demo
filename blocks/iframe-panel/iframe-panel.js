@@ -6,17 +6,24 @@ export default function decorate(block) {
 
   if (!urlRow) return;
 
-  const title = titleRow?.textContent.trim() || 'Embedded content';
+  const titleText = titleRow?.textContent.trim() || '';
   const url = urlRow.textContent.trim();
 
   if (!url) return;
 
   block.innerHTML = '';
 
+  if (titleText) {
+    const heading = document.createElement('h2');
+    heading.className = 'iframe-panel-heading';
+    heading.textContent = titleText;
+    block.append(heading);
+  }
+
   const iframe = document.createElement('iframe');
 
   iframe.src = url;
-  iframe.title = title;
+  iframe.title = titleText || 'Embedded content';
   iframe.loading = 'lazy';
   iframe.allow = 'fullscreen';
   iframe.setAttribute('scrolling', 'no');

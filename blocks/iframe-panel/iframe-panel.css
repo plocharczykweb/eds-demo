@@ -7,6 +7,16 @@
   width: 100%;
 }
 
+.iframe-panel-heading {
+  margin: 0;
+  padding: 35px 20px 10px;
+
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
 .iframe-panel iframe {
   display: block;
   width: 100%;
@@ -22,6 +32,11 @@
 }
 
 @media (max-width: 900px) {
+  .iframe-panel-heading {
+    padding: 28px 16px 10px;
+    font-size: 28px;
+  }
+
   .iframe-panel iframe {
     height: 700px;
   }
