@@ -63,12 +63,27 @@
 @media (max-width: 900px) {
   .dual-product-panel {
     grid-template-columns: 1fr;
-    padding: 16px;
+    padding: 0;
+    gap: 0;
   }
 
-  .dual-product-panel-item,
+  .dual-product-panel-item {
+    width: 100%;
+    height: 250px;
+    min-height: 0;
+    border-radius: 0;
+  }
+
+  .dual-product-panel-item:first-of-type,
+  .dual-product-panel-item:last-of-type {
+    border-radius: 0;
+  }
+
   .dual-product-panel-item img {
-    min-height: 520px;
+    width: 100%;
+    height: 250px;
+    min-height: 0;
+    object-fit: cover;
   }
 
   .dual-product-panel-content {
