@@ -1,9 +1,9 @@
 export default function decorate(block) {
-  const row = block.children[0];
+  const row = block.querySelector(':scope > div');
 
   if (!row) return;
 
-  const cells = [...row.children];
+  const cells = [...row.querySelectorAll(':scope > div')];
 
   const desktopUrl = cells[0]?.textContent.trim();
   const mobileUrl = cells[1]?.textContent.trim();
@@ -17,26 +17,22 @@ export default function decorate(block) {
   video.loop = true;
   video.playsInline = true;
 
-  const mediaQuery = window.matchMedia('(max-width: 900px)');
+  // Mobile source
+  if (mobileUrl) {
+    const mobileSource = document.createElement('source');
+    mobileSource.src = mobileUrl;
+    mobileSource.media = '(max-width: 900px)';
+    mobileSource.type = 'video/mp4';
 
-  function updateVideo() {
-    const url = mediaQuery.matches && mobileUrl
-      ? mobileUrl
-      : desktopUrl;
-
-    if (video.src !== url) {
-      video.src = url;
-      video.load();
-
-      video.play().catch(() => {
-        // Autoplay may be prevented by the browser.
-      });
-    }
+    video.append(mobileSource);
   }
 
+  // Desktop/default source
+  const desktopSource = document.createElement('source');
+  desktopSource.src = desktopUrl;
+  desktopSource.type = 'video/mp4';
+
+  video.append(desktopSource);
+
   block.replaceChildren(video);
-
-  updateVideo();
-
-  mediaQuery.addEventListener('change', updateVideo);
 }
