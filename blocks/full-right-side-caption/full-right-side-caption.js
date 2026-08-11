@@ -4,16 +4,13 @@ export default function decorate(block) {
   const imageRow = rows[0];
   const headingRow = rows[1];
   const bodyRow = rows[2];
-  const statementRow = rows[3];
-  const linkRow = rows[4];
+  const bottomRow = rows[3];
 
   if (!imageRow || !headingRow) return;
 
   const imageUrl = imageRow.textContent.trim();
   const headingText = headingRow.textContent.trim();
   const bodyText = bodyRow?.textContent.trim() || '';
-  const statementText = statementRow?.textContent.trim() || '';
-  const sourceLink = linkRow?.querySelector('a');
 
   block.innerHTML = '';
 
@@ -44,17 +41,19 @@ export default function decorate(block) {
     content.append(body);
   }
 
-  if (statementText) {
-    const statement = document.createElement('p');
-    statement.className = 'full-right-side-caption-statement';
-    statement.textContent = statementText;
-    content.append(statement);
-  }
+  if (bottomRow) {
+    const bottom = document.createElement('div');
+    bottom.className = 'full-right-side-caption-bottom';
 
-  if (sourceLink) {
-    const link = sourceLink.cloneNode(true);
-    link.className = 'full-right-side-caption-link';
-    content.append(link);
+    const sourceCell = bottomRow.firstElementChild;
+
+    if (sourceCell) {
+      while (sourceCell.firstChild) {
+        bottom.append(sourceCell.firstChild);
+      }
+    }
+
+    content.append(bottom);
   }
 
   wrapper.append(media, content);

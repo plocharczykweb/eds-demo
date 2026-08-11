@@ -38,7 +38,7 @@
 
 .full-right-side-caption-content h2 {
   margin: 0 0 28px;
-  font-size: 40px;
+  font-size: 39px;
   line-height: 1;
   text-transform: uppercase;
 }
@@ -66,6 +66,26 @@
 
 .full-right-side-caption-link:hover {
   text-decoration-thickness: 2px;
+}
+
+.full-right-side-caption-bottom {
+  font-size: clamp(20px, 1.8vw, 26px);
+  font-weight: 700;
+}
+
+.full-right-side-caption-bottom p {
+  margin: 0 0 38px;
+}
+
+.full-right-side-caption-bottom p:last-child {
+  margin-bottom: 0;
+}
+
+.full-right-side-caption-bottom a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 6px;
 }
 
 @media (max-width: 900px) {
