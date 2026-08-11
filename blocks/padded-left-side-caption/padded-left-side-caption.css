@@ -4,7 +4,7 @@
 }
 
 .padded-left-side-caption {
-  padding: 36px 5.5%;
+  padding: 0px 60px 30px 60px;
 }
 
 .padded-left-side-caption-inner {
@@ -27,16 +27,16 @@
 
 .padded-left-side-caption-content h2 {
   max-width: 520px;
-  margin: 0 0 28px;
-  font-size: clamp(32px, 3vw, 48px);
-  font-weight: 700;
+  margin: 0 0 20px;
+  font-size: 20px;
+  font-weight: bold;
   line-height: 1.1;
 }
 
 .padded-left-side-caption-description {
   max-width: 520px;
-  margin: 0 0 38px;
-  font-size: clamp(18px, 1.6vw, 24px);
+  margin: 0 0 20px;
+  font-size: 14px;
   line-height: 1.45;
 }
 
@@ -46,14 +46,14 @@
   justify-content: center;
 
   min-width: 265px;
-  padding: 20px 36px;
+  padding: 15px 30px;
 
   border: 0;
   background: #078d99;
   color: white;
 
   font: inherit;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1;
   letter-spacing: 1.5px;
