@@ -43,23 +43,26 @@
 }
 
 @media (max-width: 900px) {
+  .wide-card-wrapper{
+    margin-top:-15px;
+  }
+  
   .wide-card-inner,
   .wide-card-inner img {
-    min-height: 340px;
+    min-height: 250px;
   }
 
   .wide-card-content {
-    left: 24px;
-    right: 24px;
-    bottom: 32px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
   }
 
-  .wide-card-inner::after {
-    background: linear-gradient(
-      to top,
-      rgb(0 0 0 / 50%) 0%,
-      rgb(0 0 0 / 10%) 65%,
-      transparent 100%
-    );
+  .wide-card-content h2 {
+    font-size:30px;
+  }
+
+  .wide-card-content p {
+    font-size:15px;
   }
 }
