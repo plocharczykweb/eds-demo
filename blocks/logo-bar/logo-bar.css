@@ -70,21 +70,19 @@
 
 @media (max-width: 900px) {
   .logo-bar {
-    height: 72px;
+    height: 40px;
     padding: 0 24px;
   }
 
   .logo-bar-logo {
     width: 160px;
   }
-}
-
-@media (max-width: 900px) {
+  
   header.header-wrapper {
-    height: 72px;
+    height: 40px;
   }
 
   main {
-    padding-top: 72px;
+    padding-top: 40px;
   }
 }
