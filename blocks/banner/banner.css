@@ -13,6 +13,7 @@ main > .section > div.banner-wrapper{
   width:100%;
   padding:10px 0px;
   text-align:center;
+  white-space:normal;
 }
 
 .banner p{
