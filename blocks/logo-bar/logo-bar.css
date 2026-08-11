@@ -78,3 +78,13 @@
     width: 160px;
   }
 }
+
+@media (max-width: 900px) {
+  header.header-wrapper {
+    height: 72px;
+  }
+
+  main {
+    padding-top: 72px;
+  }
+}
