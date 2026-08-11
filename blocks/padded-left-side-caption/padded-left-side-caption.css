@@ -10,7 +10,7 @@
 .padded-left-side-caption-inner {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: 650px;
+  min-height: 491px;
   overflow: hidden;
   border-radius: 28px;
   background: #f5f5f5;
