@@ -6,28 +6,22 @@
 .dual-product-panel {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 24px;
-  padding: 24px;
+  gap: 20px;
+  padding: 20px 0px;
 }
 
 .dual-product-panel-item {
   position: relative;
   min-height: 620px;
   overflow: hidden;
-  border-radius: 24px;
 }
 
-.dual-product-panel-item::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to top,
-    rgb(0 0 0 / 55%) 0%,
-    rgb(0 0 0 / 15%) 38%,
-    transparent 65%
-  );
-  pointer-events: none;
+.dual-product-panel-item:first-of-type {
+  border-radius:0px 20px 20px 0px;
+}
+
+.dual-product-panel-item:last-of-type {
+  border-radius:20px 0px 0px 20px;
 }
 
 .dual-product-panel-item img {
@@ -41,28 +35,28 @@
 .dual-product-panel-content {
   position: absolute;
   z-index: 2;
-  left: 48px;
-  right: 48px;
-  bottom: 28px;
+  left: 40px;
+  right: 40px;
+  bottom: 12px;
   color: white;
 }
 
 .dual-product-panel-content h2 {
   margin: 0 0 6px;
   color: white;
-  font-size: clamp(32px, 3vw, 48px);
+  font-size: 40px;
   line-height: 1;
 }
 
 .dual-product-panel-description {
   margin: 0 0 34px;
-  font-size: clamp(20px, 2vw, 28px);
+  font-size: 20px;
   line-height: 1.2;
 }
 
 .dual-product-panel-meta {
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.3;
 }
 
